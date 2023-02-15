@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dövlət Sosial Müdafiə Fondu</title>
+
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/f/ff/DSMF_%C9%99sas.jpg">
+
+    <style>
+        body{
+            color: white;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)) , url("https://cdn.wallpapersafari.com/90/29/4LbDOE.jpg");
+            background-size: contain;
+            font-family: 'Arial', 'Helvetica', 'sans-serif'
+        }
+        #r{
+            background-image: linear-gradient(rgb(255, 37, 37) , rgb(134, 0, 0));
+            width: 100px;
+            height: 40px;
+            border: none;
+            color:white;
+            font-size: 20px;
+        }
+        #g{
+            background-image: linear-gradient(rgb(35, 255, 35) , rgb(0, 68, 0));
+            width: 100px;
+            height: 40px;
+            border: none;
+            color:white;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        a{
+            border: 1px solid black;
+            color:white;
+            background-color: black;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body autocomplete="on" novalidate>
+    <h1>Sosial Müavinət Formu</h1>
+    <form>
+        <fieldset>
+            <legend>Fiziki Şəxsin Məlumatları</legend>
+
+            <label for="ad">Ad</label><br>
+            <input type="text" name="ad" id="ad" placeholder="Ad" required><br><br>
+
+            <label for="soyad">Soyad</label><br>
+            <input type="text" name="soyad" id="soyad" placeholder="Soyad" required><br><br>
+
+            <label for="fin">Fərdi İdentifikasiya Nömrəsi(FİN)</label><br>
+            <input type="text" name="fin" id="fin" placeholder="FİN" maxlength="7" required><br><br>
+
+            <label for="doqum">Doğum Tarixi</label><br>
+            <input type="date" name="doqum" id="doqum"><br><br>
+
+            <label for="ünvan">Ünvan</label><br>
+            <input type="text" name="ünvan" id="ünvan" placeholder="Ünvan" required><br><br>
+
+            <label for="tel">Əlaqə Nömrəsi</label><br>
+            <input type="tel" name="tel" id="tel" placeholder="Telefon" required><br><br>
+
+            <label for="ailəvəziyyəti">Ailə Vəziyyəti</label><br>
+            <select name="ailəvəziyyəti" id="ailəvəziyyəti" size="1">
+                <option value="subay" selected>Subay</option>
+                <option value="evli">Evli</option>
+            </select><br>
+        </fieldset><br><br><br><br>
+
+        <fieldset>
+            <legend>Fiziki Şəxsin Atasının Məlumatları</legend>
+
+            <label for="sağlamlıq1">Həyatdadır</label><br>
+            <select name="sağlamlıq1" id="sağlamlıq1" size="1">
+                <option value="bəli" selected>Bəli</option>
+                <option value="xeyir">Xeyir</option>
+            </select><br><br>
+
+            <label for="ad1">Ad</label><br>
+            <input type="text" name="ad1" id="ad1" placeholder="Ad"><br><br>
+
+            <label for="soyad1">Soyad</label><br>
+            <input type="text" name="soyad1" id="soyad1" placeholder="Soyad"><br><br>
+
+            <label for="fin1">Fərdi İdentifikasiya Nömrəsi(FİN)</label><br>
+            <input type="text" name="fin1" id="fin1" placeholder="FİN" maxlength="7"><br><br>
+
+            <label for="doqum1">Doğum Tarixi</label><br>
+            <input type="date" name="doqum1" id="doqum1"><br><br>
+
+            <label for="ünvan1">Ünvan</label><br>
+            <input type="text" name="ünvan1" id="ünvan1" placeholder="Ünvan"><br><br>
+
+            <label for="tel1">Əlaqə Nömrəsi</label><br>
+            <input type="tel" name="tel1" id="tel1" placeholder="Telefon">
+
+            
+        </fieldset><br><br><br><br>
+
+        <fieldset>
+            <legend>Fiziki Şəxsin Anasının Məlumatları</legend>
+
+            <label for="sağlamlıq2">Həyatdadır</label><br>
+            <select name="sağlamlıq2" id="sağlamlıq2" size="1">
+                <option value="bəli" selected>Bəli</option>
+                <option value="xeyir">Xeyir</option>
+            </select><br><br>
+
+            <label for="ad2">Ad</label><br>
+            <input type="text" name="ad2" id="ad2" placeholder="Ad"><br><br>
+
+            <label for="soyad2">Soyad</label><br>
+            <input type="text" name="soyad2" id="soyad2" placeholder="Soyad"><br><br>
+
+            <label for="fin2">Fərdi İdentifikasiya Nömrəsi(FİN)</label><br>
+            <input type="text" name="fin2" id="fin2" placeholder="FİN" maxlength="7"><br><br>
+
+            <label for="doqum2">Doğum Tarixi</label><br>
+            <input type="date" name="doqum2" id="doqum2"><br><br>
+
+            <label for="ünvan2">Ünvan</label><br>
+            <input type="text" name="ünvan2" id="ünvan2" placeholder="Ünvan"><br><br>
+
+            <label for="tel2">Əlaqə Nömrəsi</label><br>
+            <input type="tel" name="tel2" id="tel2" placeholder="Telefon">
+
+            
+        </fieldset><br><br><br><br>
+
+
+        <label for="məruzə">Şikayət və Təklifləriniz</label><br>
+        <textarea name="məruzə" id="məruzə" cols="30" rows="10" maxlength="255" placeholder="Şikayət və Təklifləriniz"></textarea><br><br>
+
+        <input type="reset" value="Sıfırla" id="r"><br><br>
+
+        <input type="submit" value="Göndər" id="g">
+        
+
+    </form><br>
+    <hr><br><br><br><br>
+
+    <a href="tel:0506987053">Qaynar Xət</a><br><br><br><br>
+    
+</body>
+</html>

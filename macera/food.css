@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    color: white;
+    background-image: linear-gradient(to left , rgb(180, 117, 0) , rgb(79, 0, 116));
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#text{
+    width: 85%;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    background-color: rgb(106, 255, 68);
+    
+}
+
+h1{
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-style: solid;
+    /* text-decoration-thicknes: 10px; */
+}
+
+#istinad{
+    vertical-align: super;
+}
+
+#languagetext1{
+    padding: 7px;
+    border: 1px solid black;
+    outline: 1px solid black;
+    outline-offset: 2px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 20px;
+    word-spacing: 4px;
+    text-shadow: 0px 0px 5px rgb(0, 225, 255) ;
+    font-style: normal;
+    font-weight: 600;
+    font-variant: normal;
+}
+
+
+
+
+
+
+#table{
+    background-image: linear-gradient(to right, #25b7c2, #049db4);
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    
+}
+
+
+th{
+    background-color: aqua;
+    text-align: left;
+    height: 50px;
+    vertical-align: middle;
+    padding-left: 10px;
+
+}
+
+
+
+table{
+    
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td{
+    padding-left: 10px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+
+
+.country{
+    width: 300px;
+    background-color: rgb(0, 165, 194);
+}
+
+tr:hover{
+    background-color: rgb(0, 199, 0);
+}
+
+
+
+th:hover{
+    background-color: rgb(0, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:visited{
+    color: rgb(60, 255, 60);
+}
+
+#footer a:hover{
+    text-decoration: underline solid white;
+    text-shadow: 0 1px 3px blue, 0 -1px 3px red;  /* bi dene tel ikonuna dwswr*/
+}
+
+
+
+svg{
+    width: 20px;
+    vertical-align: middle;
+    color: white;
+}
+
+a span{
+    width: 20px;
+    vertical-align: middle;
+    color:black;
+}
+
+a{
+    color: white;
+}
+
+#footerlink span{
+    text-decoration: underline;
+    color: blue;
+}
