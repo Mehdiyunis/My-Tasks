@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient( 135deg, rgb(190, 0, 190),rgb(43, 0, 43));
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    position: relative;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    width: 170px;
+    height: 170px;
+    background-color: red;
+    border-radius: 40px;
+    position: absolute;
+    z-index: -1;
+
+    
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+#box1{
+    animation-name: box1;
+    animation-duration: 4s;
+}
+  
+@keyframes box1 {
+    0%   {background-color: rgb(180, 0, 0); left:40px; top:0px; box-shadow: black 0 0 30px;}
+    10%  {background-color: rgb(180, 167, 0); box-shadow: black 0 -20px 30px;}
+    20%  {background-color: rgb(36, 180, 0);}
+    30%  {background-color: rgb(0, 180, 171);}
+    40%  {background-color: rgb(12, 0, 180); box-shadow: black 0 -20px 30px;}
+    50%  {background-color: rgb(128, 0, 70); left:40px; top:calc(100% - 170px); box-shadow: black 0 0 30px;}
+    60%  {background-color: rgb(180, 0, 0); box-shadow: black 0 20px 30px;}
+    70%  {background-color: rgb(180, 167, 0);}
+    80%  {background-color: rgb(36, 180, 0);}
+    90%  {background-color: rgb(0, 180, 171); box-shadow: black 0 20px 30px;}
+    100% {background-color: rgb(12, 0, 180);left:40px; top:0px; box-shadow: black 0 0px 30px;}
+}
+
+
+#box2{
+    animation-name: box2;
+    animation-duration: 4.5s;
+}
+  
+@keyframes box2 {
+    0%   {background-color: rgb(180, 0, 0); left:250px; top:0px; box-shadow: black 0 0 30px;}
+    10%  {background-color: rgb(180, 167, 0); box-shadow: black 0 -20px 30px;}
+    20%  {background-color: rgb(36, 180, 0);}
+    30%  {background-color: rgb(0, 180, 171);}
+    40%  {background-color: rgb(12, 0, 180); box-shadow: black 0 -20px 30px;}
+    50%  {background-color: rgb(128, 0, 70); left:250px; top:calc(100% - 170px); box-shadow: black 0 0 30px;}
+    60%  {background-color: rgb(180, 0, 0); box-shadow: black 0 20px 30px;}
+    70%  {background-color: rgb(180, 167, 0);}
+    80%  {background-color: rgb(36, 180, 0);}
+    90%  {background-color: rgb(0, 180, 171); box-shadow: black 0 20px 30px;}
+    100% {background-color: rgb(12, 0, 180);left:250px; top:0px; box-shadow: black 0 0px 30px;}
+}
+
+#box3{
+    animation-name: box3;
+    animation-duration: 3s;
+}
+  
+@keyframes box3 {
+    0%   {background-color: rgb(180, 0, 0); left:460px; top:0px; box-shadow: black 0 0 30px;}
+    10%  {background-color: rgb(180, 167, 0); box-shadow: black 0 -20px 30px;}
+    20%  {background-color: rgb(36, 180, 0);}
+    30%  {background-color: rgb(0, 180, 171);}
+    40%  {background-color: rgb(12, 0, 180); box-shadow: black 0 -20px 30px;}
+    50%  {background-color: rgb(128, 0, 70); left:460px; top:calc(100% - 170px); box-shadow: black 0 0 30px;}
+    60%  {background-color: rgb(180, 0, 0); box-shadow: black 0 20px 30px;}
+    70%  {background-color: rgb(180, 167, 0);}
+    80%  {background-color: rgb(36, 180, 0);}
+    90%  {background-color: rgb(0, 180, 171); box-shadow: black 0 20px 30px;}
+    100% {background-color: rgb(12, 0, 180);left:460px; top:0px; box-shadow: black 0 0px 30px;}
+}
+
+
+#box4{
+    animation-name: box4;
+    animation-duration: 3.5s;
+}
+  
+@keyframes box4 {
+    0%   {background-color: rgb(180, 0, 0); left:670px; top:0px; box-shadow: black 0 0 30px;}
+    10%  {background-color: rgb(180, 167, 0); box-shadow: black 0 -20px 30px;}
+    20%  {background-color: rgb(36, 180, 0);}
+    30%  {background-color: rgb(0, 180, 171);}
+    40%  {background-color: rgb(12, 0, 180); box-shadow: black 0 -20px 30px;}
+    50%  {background-color: rgb(128, 0, 70); left:670px; top:calc(100% - 170px); box-shadow: black 0 0 30px;}
+    60%  {background-color: rgb(180, 0, 0); box-shadow: black 0 20px 30px;}
+    70%  {background-color: rgb(180, 167, 0);}
+    80%  {background-color: rgb(36, 180, 0);}
+    90%  {background-color: rgb(0, 180, 171); box-shadow: black 0 20px 30px;}
+    100% {background-color: rgb(12, 0, 180);left:670px; top:0px; box-shadow: black 0 0px 30px;}
+}
+
+
+#box5{
+    animation-name: box5;
+    animation-duration: 5.5s;
+}
+  
+@keyframes box5 {
+    0%   {background-color: rgb(180, 0, 0); left:880px; top:0px; box-shadow: black 0 0 30px;}
+    10%  {background-color: rgb(180, 167, 0); box-shadow: black 0 -20px 30px;}
+    20%  {background-color: rgb(36, 180, 0);}
+    30%  {background-color: rgb(0, 180, 171);}
+    40%  {background-color: rgb(12, 0, 180); box-shadow: black 0 -20px 30px;}
+    50%  {background-color: rgb(128, 0, 70); left:880px; top:calc(100% - 170px); box-shadow: black 0 0 30px;}
+    60%  {background-color: rgb(180, 0, 0); box-shadow: black 0 20px 30px;}
+    70%  {background-color: rgb(180, 167, 0);}
+    80%  {background-color: rgb(36, 180, 0);}
+    90%  {background-color: rgb(0, 180, 171); box-shadow: black 0 20px 30px;}
+    100% {background-color: rgb(12, 0, 180);left:880px; top:0px; box-shadow: black 0 0px 30px;}
+}
+
+
+
+#box6{
+    animation-name: box6;
+    animation-duration: 6s;
+}
+  
+@keyframes box6 {
+    0%   {background-color: rgb(180, 0, 0); left:1090px; top:0px; box-shadow: black 0 0 30px;}
+    10%  {background-color: rgb(180, 167, 0); box-shadow: black 0 -20px 30px;}
+    20%  {background-color: rgb(36, 180, 0);}
+    30%  {background-color: rgb(0, 180, 171);}
+    40%  {background-color: rgb(12, 0, 180); box-shadow: black 0 -20px 30px;}
+    50%  {background-color: rgb(128, 0, 70); left:1090px; top:calc(100% - 170px); box-shadow: black 0 0 30px;}
+    60%  {background-color: rgb(180, 0, 0); box-shadow: black 0 20px 30px;}
+    70%  {background-color: rgb(180, 167, 0);}
+    80%  {background-color: rgb(36, 180, 0);}
+    90%  {background-color: rgb(0, 180, 171); box-shadow: black 0 20px 30px;}
+    100% {background-color: rgb(12, 0, 180);left:1090px; top:0px; box-shadow: black 0 0px 30px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px 0 0;
+    position: relative;
+    z-index: 0;
+}
+
+
+#menu  .card {
+    width: 138px;
+    margin-bottom: 20px;
+    padding: 29.250px 13px 22.750px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid #e1e3ea;
+    border-radius: 12px;
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    background-color: white;
+
+    position: relative;
+
+}
+
+#menu .card:focus {
+    border: 3px solid #0095e8;
+} 
+
+/* #menu .card:hover {
+    box-shadow: rgb(34, 34, 34) 0 0 30px 8px;
+} */
+
+#menu .card::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: blueviolet;
+    border-radius: 12px;
+    transition: transform .3s , box-shadow .3s;
+}
+
+#menu .card:hover::before{
+    content: "";
+    transform: rotate(-20deg);
+
+}
+
+#menu .card::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-color: green;
+    border-radius: 12px;
+    transition: transform .3s , box-shadow .3s;
+}
+
+#menu .card:hover::after{
+    content: "";
+    transform: rotate(20deg);
+
+}
+
+#menu  .card .card_imgdiv {
+    width: 50px;
+    height: 50px;
+    margin:0 auto  20.750px;
+}
+
+#menu  .card .card_imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#menu  .card .card_h2 {
+    color: #3f4254;
+    font-weight: 600;
+    font-size: 1.275rem;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+#menu  .card .card_p {
+    color: #b5b5c3;
+    font-weight: 500;
+    font-size: .85rem;
+    text-transform: capitalize;
+}
+
+
+#foods {
+    width: 100%;  /* max-width: ;  işlemedi */
+    height: 100vh;
+    padding: 40px;
+    /* margin: auto; */
+}
+
+
+
+
+
