@@ -1,0 +1,28 @@
+header{
+    width: 100vw;
+    height: 106px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header a{
+    margin: 30px;
+}
+
+header #popup::after{
+    content: "dsvsdvsdvdsv ";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: red;
+    transform: translateX(100%);
+   
+}
+
+header  #popup:hover::after{
+    transform: translateX(0%);
+}
